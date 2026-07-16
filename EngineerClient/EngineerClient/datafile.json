@@ -1,0 +1,108 @@
+{
+    "splits": {
+        "toggled": true,
+        "x": "5",
+        "y": "280",
+        "onWorldLoad": true,
+        "open": 17,
+        "blood": 64,
+        "portal": 4.3,
+        "maxor": 25.5,
+        "storm": 45.3,
+        "terms": 42,
+        "goldor": 8.2,
+        "necron": 30.3,
+        "animation": 4.6
+    },
+    "subSplits": {
+        "toggled": true,
+        "x": "800",
+        "y": "10",
+        "onWorldLoad": true
+    },
+    "purpPad": {
+        "toggled": true,
+        "x": "620",
+        "y": "450",
+        "scale": "2"
+    },
+    "masks": {
+        "x": "280",
+        "y": "300",
+        "scale": "1",
+        "toggled": false
+    },
+    "speed": {
+        "toggled": true,
+        "x": "360",
+        "y": "515",
+        "scale": "1",
+        "hide500": false
+    },
+    "chatCleaner": {
+        "toggled": true,
+        "friendJoinMessages": true,
+        "partyChat": false,
+        "dungeonSpam": true,
+        "randomMessages": true,
+        "watcherMessages": true,
+        "bossMessages": true
+    },
+    "sheepHider": {
+        "toggled": true,
+        "distance": 999
+    },
+    "eeAlert": {
+        "toggled": false,
+        "x": "300",
+        "y": "130",
+        "scale": "1"
+    },
+    "eeMove": {
+        "toggled": false,
+        "x": "300",
+        "y": "100",
+        "scale": "1"
+    },
+    "termInfo": {
+        "toggled": true,
+        "x": "10",
+        "y": "10",
+        "scale": "2",
+        "i4": true,
+        "totalTerms": true,
+        "i3fast": true,
+        "i2": false,
+        "fi2": true,
+        "i3": true,
+        "ifast": false
+    },
+    "AutoKick": {
+        "toggled": false,
+        "pb": "270000"
+    },
+    "fps": {
+        "toggled": true,
+        "x": "10",
+        "y": "10",
+        "scale": "1"
+    },
+    "eealert": {
+        "toggled": true,
+        "x": "100",
+        "y": "100",
+        "scale": "2"
+    },
+    "terminfo": {
+        "toggled": false,
+        "x": "200",
+        "y": "500",
+        "scale": "1",
+        "totalTerms": false,
+        "i4": false,
+        "i2": false,
+        "fi2": false,
+        "i3": false,
+        "i3fast": false
+    }
+}

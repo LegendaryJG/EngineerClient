@@ -1,0 +1,238 @@
+
+[splits]
+
+	[splits.run_prediction]
+		portal_time = "4.1"
+		terminals_time = "45"
+		maxor_time = "26"
+		remove_brackets = false
+		necron_time = "30.25"
+		run_prediction = false
+		camp_time = "65.5"
+		goldor_time = "8"
+		animation_time = "4.25"
+		storm_time = "46"
+		blood_rush_time = "18"
+		"only_show_how_much_time_you_lost/gained" = false
+		run_prediction_split_name = false
+
+	[splits.boss_splits]
+		toggle_boss_split_names = true
+		boss_split_x = 0.01
+		boss_split_y = 0.48
+		boss_splits = false
+		purple_pad_timer = true
+		ticks_since_last_message = false
+
+	[splits.clear_splits]
+		clear_split_y = 0.4
+		clear_split_x = 0.01
+		toggle_clear_split_names = true
+		blood_checkmark = false
+		clear_splits = false
+
+[boss]
+	wither_movement_speed_include_y_level = false
+	wither_movement_speed_display = false
+	wither_boss_highlight = false
+
+	[boss.p1]
+		crystal_gui = true
+		p1_info = true
+
+	[boss.core]
+		core_timestamps = false
+		core_message_if_already_in = " took 0s"
+		hide_players_with_0s_core_enter_times = true
+
+	[boss.goldor]
+		section_times = true
+		core_timestamps = true
+		early_enter_alert = true
+		section_titles = true
+		kick_this_guy = false
+		core_message_if_already_in = "took 0s"
+
+	[boss.p2]
+		p2_info = true
+		storm_lightning_countdown = false
+
+	[boss.storm]
+		storm_info = true
+		storm_info_detailed_names = true
+		storm_lightning_countdown = false
+		detailed_names = true
+
+	[boss.necron]
+		necron_info = false
+
+	[boss.maxor]
+		maxor_info = false
+		crystal_gui = false
+
+	[boss.early_enter_alerts]
+		early_enter_alert = true
+		early_enter_location_scale = 1.6
+		early_enter_location_display = true
+		early_enter_location_x = 0.38
+		use_player_position = true
+		early_enter_location_y = 0.04
+
+[p3]
+	kick_this_guy = false
+
+	[p3.p3_gui]
+		section_times = true
+		p3_info = true
+
+	[p3.early_enter_alerts]
+		send_chat_messageeg = true
+		early_enter_alert = true
+
+[dungeons]
+
+	[dungeons.other]
+		auto_tac = false
+		secret_triggerbot = false
+		secret_triggerbot_delay = 100.0
+		dialogue_skip_helper = false
+
+	[dungeons.goldor]
+		section_titles = false
+		early_enter_titles = true
+
+	[dungeons.puzzles]
+		puzzle_timer = false
+
+[clear]
+	tac_timer = true
+	tac_countdown = true
+	tac_timer_in_dungeons = true
+	tac_timer_outside_dungeons = false
+
+	[clear.action_bar]
+		toggle_score_clcac = false
+		toggle_score_calc = false
+
+[global]
+	45_strafe_lines = false
+
+[action_bar]
+
+	[action_bar.overflow_mana]
+		overflow_mana_gui = false
+
+	[action_bar.mana]
+		use_less_ugly_icon = false
+		"only_start_showing_when_mana_is_less_than_certain_percent_(use_101_to_always_show)" = 90.0
+		mana_gui = false
+		use_mana_icon = false
+		change_mana_colors = false
+		only_show_mana_icon = false
+		use_mana_percent = false
+
+	[action_bar.health]
+		only_show_health_icon = false
+		change_health_colors = false
+		only_show_color_for_absorption = false
+		health_gui = false
+		use_health_icon = true
+		"only_start_showing_when_health_is_less_than_certain_percent_(use_101_to_always_show)" = 101.0
+		use_health_percent = false
+		use_pink_for_100-85 = false
+
+	[action_bar.mana_usage]
+		mana_usage_gui = false
+
+	[action_bar.action_bar]
+		hide_action_bar = false
+		replace_action_bar = false
+
+	[action_bar.secrets]
+		secrets_title = false
+		secrets_gui = false
+
+[terminals]
+
+	[terminals.p3_gui]
+		section_times = false
+		goldor_info = false
+		p3_info = false
+
+	[terminals.terminal_gui]
+		section_times = false
+		simple_terminal_progress = false
+		terminals_info = true
+		hide_terminlas_message = false
+
+	[terminals.early_enter_alerts]
+		send_chat_messageeg = true
+		early_enter_alert = true
+		paste_early_enters_into_party_chat = false
+
+[general]
+	no_leak_line = false
+	tac_timer_outside_dungeons = false
+	display_autopets = false
+	tac_timer = false
+	hide_experience_levels = false
+	speed_display = false
+	show_400_speed = true
+	full_ender_pearl_message = false
+	chat_cleaner = false
+
+	[general.sounds]
+		meow_arrows = false
+
+	[general.chat]
+		party_commands = false
+
+	[general.skyblock]
+		meow_etherwarp = false
+		pet_keybinds = false
+		anti_kick = false
+		anti-lowballers = false
+
+	[general.ender_pearl]
+		display_autopets = false
+		full_ender_pearl_message = false
+
+	[general.end_stone_protector]
+		auto_find_stage_4_lobbies = false
+		auto_invite = "EngineerAndrew"
+
+[f7]
+
+	[f7.goldor]
+		rotate_time = 50.0
+		section_titles = true
+		ss_timer = false
+		early_enter_titles = true
+		auto_swap = false
+		rest_time = 30.0
+		auto_four = false
+		auto_leap = false
+
+[croesus]
+	toggle_auto_croesus = false
+	inventory_slot_that_will_never_have_anything_important_in_it = 8.0
+	"auto_drop/sell" = false
+
+[end_stone_protetor]
+	auto_find_stage_4_lobbies = false
+
+[end_stone_protector]
+	auto_find_stage_4_lobbies = false
+	auto_invite = "EngineerAndrew"
+
+[chat_cleaner]
+	clean_friend_join_messages = true
+	clean_party_chat_messages = false
+	chat_cleaner = true
+
+[party_commands]
+	"!inv" = true
+	"!lsiw" = false
+	lsiw = true
+	party_commands_toggle = true
+
